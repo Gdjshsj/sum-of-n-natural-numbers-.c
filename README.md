@@ -1,2 +1,13 @@
-# sum-of-n-natural-numbers-.c
-print sum of n natural numbers from 1 to n
+ #include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int i=1,s=0;
+    while(i<=n)
+    {
+        s+=i;
+        i++;
+    }
+    printf("sum is:%d",s);
+}
